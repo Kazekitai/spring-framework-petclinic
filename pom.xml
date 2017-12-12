@@ -287,6 +287,7 @@
                     </includes>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -295,6 +296,7 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-eclipse-plugin</artifactId>
@@ -357,6 +359,7 @@
                     </execution>
                 </executions>
             </plugin>
+            
             <!--Specify the encoding for copying resources-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
